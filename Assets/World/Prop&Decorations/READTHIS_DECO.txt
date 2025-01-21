@@ -1,0 +1,2 @@
+All Props and decorations are inputted in this folder take not prop from entities 
+and terrain are different to one another.

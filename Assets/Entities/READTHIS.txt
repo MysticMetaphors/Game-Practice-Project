@@ -1,0 +1,6 @@
+"This folder serves as the central repository for all game entities. 
+It includes key elements such as the player character, enemy units, 
+allied characters, and pets. These entities are essential components 
+of the game, each playing a unique role in gameplay mechanics and interactions. 
+Organizing them in a dedicated folder ensures easy access 
+and streamlined management during development.
