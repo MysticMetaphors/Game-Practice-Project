@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://bdeaf4it8xiha"]
+
+[ext_resource type="Script" path="res://Scenes/Test/character_body_3d.gd" id="1_lksjf"]
+[ext_resource type="Texture2D" uid="uid://bj2bpw6xsp55e" path="res://icon.svg" id="2_7bf48"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_bbrlh"]
+
+[node name="Test-Dummy" type="CharacterBody3D"]
+script = ExtResource("1_lksjf")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00159143, 1.06663, -0.0637475)
+shape = SubResource("CapsuleShape3D_bbrlh")
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0448145, 0.906699, -0.022599)
+texture = ExtResource("2_7bf48")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.029825, 1.64864, -0.0525355)

@@ -1,0 +1,4 @@
+All Scens are inputted here.
+
+Note: Each Scenes must be inputted to their respected Folder along side with their 
+Scripts.
